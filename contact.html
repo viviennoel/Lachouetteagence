@@ -1,13 +1,17 @@
 <!doctype html>
+
+<!--Corriger la langue + og-->
 <html lang="Default">
 <head>
     <meta charset="utf-8">
+	
+<!--Corriger les balises meta-->	
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
+    	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
@@ -18,10 +22,12 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+    
+<!--Corriger les balises title-->
+	<title>page2</title>
 
     
-<!-- Analytics -->
+<!-- Analytics a ajouter si nécessaire-->
  
 <!-- Analytics END -->
     
@@ -31,24 +37,25 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
+<!--enlever le white bg + utiliser header-->
 <div class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+
+				<div class="navbar-brand"><img src="img/la-chouette-agence.png" alt="paris web design logo agence web meilleure agence" height="40" /></div>
+		
+				<button id="nav-toggle" type="button" aria-label="Menu" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
 						<a href="index.html">Accueil</a>
-					</li>
+					</li>		
 					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -62,6 +69,8 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
+				
+<!--Modifier le text h1 + enlever tc-white pour augmenter contrastes-->				
 				<h1 class="text-center hero-bloc-text tc-white">
 					Parlons web design !
 				</h1>
@@ -85,28 +94,26 @@
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input aria-label="nom" id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input aria-label="email" id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input aria-label="comment nous avez vous connu" class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea aria-label="décrivez votre projet" id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
@@ -120,37 +127,47 @@
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
-<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+<a aria-label="retour haut page" class="bloc-button btn btn-d" href="#nav-toggle"><span class="fa fa-chevron-up"></span></a>
 <!-- ScrollToTop Button END-->
 
 
 <!-- Footer - bloc-8 -->
+<!--Remplace with footer-->
 <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
+				<!--Modifier la couleur du texte en gris-->				
 				<p class="text-center white">
 					La chouette agence - Agence web basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
-					<div class="col-sm-3">
+					<div class="col-6 col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							
+<!--ajouter le aria-label et le text disant twitter - lier à twitter-->							
+							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span> Twitter</a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-6 col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							
+<!--ajouter le aria-label et le text disant Facebook - lier à Facebook-->	
+							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span> Facebook</a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-6 col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							
+<!--ajouter le aria-label et le text disant dribble - lier à dribble-->	
+							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span> Dribble</a>
 						</div>
 					</div>
-					<div class="col-sm-3">
+					<div class="col-6 col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							
+<!--ajouter le aria-label et le text disant instagram - lier à instagram-->	
+							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span> Instagram</a>
 						</div>
 					</div>
 				</div>
