@@ -6,7 +6,7 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
-html {
+/*html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
@@ -228,8 +228,6 @@ td,
 th {
     padding: 0
 }
-
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
     *,
@@ -1977,7 +1975,7 @@ pre code {
     max-height: 340px;
     overflow-y: scroll
 }
-
+*/
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -2068,7 +2066,7 @@ pre code {
     padding-right: 15px;
     padding-left: 15px
 }
-
+/*
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
@@ -2287,7 +2285,7 @@ pre code {
 .col-xs-offset-0 {
     margin-left: 0
 }
-
+*/
 @media (min-width:768px) {
     .col-sm-1,
     .col-sm-10,
@@ -2797,7 +2795,7 @@ pre code {
         margin-left: 0
     }
 }
-
+/*
 table {
     background-color: transparent
 }
@@ -4236,7 +4234,7 @@ input[type=reset].btn-block,
 input[type=submit].btn-block {
     width: 100%
 }
-
+*/
 .fade {
     opacity: 0;
     -webkit-transition: opacity .15s linear;
@@ -5927,7 +5925,7 @@ a.label:hover {
 .label-danger[href]:hover {
     background-color: #c9302c
 }
-
+/*
 .badge {
     display: inline-block;
     min-width: 10px;
@@ -7034,7 +7032,7 @@ button.list-group-item-danger.active:hover {
     padding: 9px;
     border-radius: 3px
 }
-
+*/
 .close {
     float: right;
     font-size: 21px;
@@ -7739,7 +7737,7 @@ button.close {
         bottom: 20px
     }
 }
-
+/*
 .btn-group-vertical>.btn-group:after,
 .btn-group-vertical>.btn-group:before,
 .btn-toolbar:after,
