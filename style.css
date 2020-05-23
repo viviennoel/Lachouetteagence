@@ -81,6 +81,10 @@ background-color:#a94442;
 background-color:#a94442;
 }
 
+.ltc-white:focus {
+    color:#a94442;
+}
+
 .navbar-toggle:focus .icon-bar {
 background-color:#a94442;
 }
@@ -328,6 +332,7 @@ background-color:#a94442;
 
 .nav > li a:hover,
 .nav > li a:focus {
+    color:#a94442;
     background: transparent;
 }
 
