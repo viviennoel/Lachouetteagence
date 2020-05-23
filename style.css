@@ -15,6 +15,10 @@ a, button {
     outline: none!important;
 }
 
+a:hover, button:hover, a:focus, button:focus {
+    text-transform:underline;
+}
+
 li a {
     color:#000000;
 }
@@ -709,7 +713,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #ffffff!important;
 }
 
 h4 {
@@ -749,14 +753,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ab5919;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
+    text-transform:underline;
     background: #F3976C;
     color: #FFFFFF!important;
 }
