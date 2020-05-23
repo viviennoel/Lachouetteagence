@@ -73,6 +73,18 @@ a:hover {
     background: top no-repeat;
 }
 
+.btn-rd:focus {
+background-color:#a94442;
+}
+
+.btn:focus {
+background-color:#a94442;
+}
+
+.navbar-toggle:focus .icon-bar {
+background-color:#a94442;
+}
+
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
