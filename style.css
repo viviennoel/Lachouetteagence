@@ -13,6 +13,12 @@ body {
 a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: underline;
+}
+
+.style:focus {
+    color:#ffffff;
+    text-decoration: none;
 }
 
 a:hover, button:hover, a:focus, button:focus {
@@ -20,7 +26,7 @@ a:hover, button:hover, a:focus, button:focus {
 }
 
 .bgc-clearorange {
-    background-color:#fdd6c3;
+    background-color:#fdd6c3 !important;
 }
 
 li a {
@@ -756,6 +762,11 @@ h4 {
     text-decoration: underline!important;
 }
 
+.bold-link:focus {
+    font-weight: 400;
+    text-decoration: none!important;
+}
+
 .bgc-atomic-tangerine {
     background-color: #ab5919;
 }
@@ -766,7 +777,7 @@ h4 {
 
 .btn-atomic-tangerine {
     text-transform:underline;
-    background: #F3976C;
+    background: #337ab7;
     color: #FFFFFF!important;
 }
 
