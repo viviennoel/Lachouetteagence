@@ -40,7 +40,7 @@
     
 <!-- bloc-0 -->
 <!--Utiliser la balise header + enlever background-->
-<header class="bloc l-bloc " id="bloc-0">
+<header role="contentinfo" class="bloc l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 
 		<nav class="navbar row">
@@ -55,13 +55,13 @@
 					<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+			<div  role="tabpanel" aria-expanded="true" class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="index.html">Accueil</a>
+						<a aria-selected="true" href="index.html">Accueil</a>
 					</li>
 					<li>
-						<a href="contact.html">Contact</a>
+						<a aria-selected="false" href="contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -73,7 +73,7 @@
 <!-- bloc-1-presentation -->
 <!--Utiliser la balise article-->
 	
-<article>	
+<article role="contentinfo">	
 <div class="bloc bg-banniere d-bloc b-parallax" id="bloc-1-hero">
 	<div class="container bloc-lg">
 		<div class="row">
@@ -295,7 +295,7 @@
 
 <!-- Footer - bloc-8 -->
 <!--Utiliser footer-->	
-<footer class="bloc bgc-clearorange d-bloc" id="bloc-8">
+<footer role="contentinfo" class="bloc bgc-clearorange d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
