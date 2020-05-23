@@ -19,6 +19,10 @@ a:hover, button:hover, a:focus, button:focus {
     text-transform:underline;
 }
 
+.bgc-clearorange {
+    background-color:#fdd6c3;
+}
+
 li a {
     color:#000000;
 }
@@ -726,7 +730,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
