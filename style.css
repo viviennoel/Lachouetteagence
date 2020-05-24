@@ -10,7 +10,7 @@ body {
     color: #575757!important;
 }
 
-a .style {
+a, .style {
     color:#000000;
 }
 
