@@ -397,15 +397,15 @@ background-color:#a94442;
     }
   
   .bg-banniere {
-    background-image: url("https://res.cloudinary.com/viviennoel07/image/upload/c_scale,q_100,w_1200,f_auto/v1590233483/la-chouette-agence-banniere_kv2wzn.jpg");
+    background-image: url(./img/la-chouette-agence-banniere-1200.jpg");
     }
     
     .bg-presentation {
-    background-image: url("https://res.cloudinary.com/viviennoel07/image/upload/c_scale,q_100,w_1200,f_auto/v1590236688/image-de-presentation_z707c2.jpg");
+    background-image: url("./img/image-de-presentation-1200.jpg");
     }
 
     .contact__bg {
-    background-image: url("https://res.cloudinary.com/viviennoel07/image/upload/c_scale,q_100,w_1200,f_auto/v1590241488/bgd-contact_obb7gc.jpg");
+    background-image: url("https://bgd-contact-1200.jpg");
     }
     
     .nav-invert .site-navigation {
@@ -823,17 +823,18 @@ h4 {
     background-image: url("img/lines-h2-bg.png");
 }
 
-.bg-banniere {
-    background-image: url("https://res.cloudinary.com/viviennoel07/image/upload/c_scale,q_100,w_776,f_auto/v1590233483/la-chouette-agence-banniere_kv2wzn.jpg");
-}
+  
+  .bg-banniere {
+    background-image: url(./img/la-chouette-agence-banniere-776.jpg");
+    }
+    
+    .bg-presentation {
+    background-image: url("./img/image-de-presentation-776.jpg");
+    }
 
-.bg-presentation {
-    background-image: url("https://res.cloudinary.com/viviennoel07/image/upload/c_scale,q_100,w_776,f_auto/v1590236688/image-de-presentation_z707c2.jpg");
-}
-
- .contact__bg {
-    background-image: url("https://res.cloudinary.com/viviennoel07/image/upload/c_scale,q_100,w_776,f_auto/v1590241488/bgd-contact_obb7gc.jpg");
- }
+    .contact__bg {
+    background-image: url("https://bgd-contact-776.jpg");
+    }
 
 @media (max-width: 1024px) {
     .bloc {
