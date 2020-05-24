@@ -397,15 +397,15 @@ background-color:#a94442;
     }
   
   .bg-banniere {
-    background-image: url(./img/la-chouette-agence-banniere-1200.jpg");
+    background-image: url("img/la-chouette-agence-banniere-1200.jpg");
     }
     
     .bg-presentation {
-    background-image: url("./img/image-de-presentation-1200.jpg");
+    background-image: url("img/image-de-presentation-1200.jpg");
     }
 
     .contact__bg {
-    background-image: url("https://bgd-contact-1200.jpg");
+    background-image: url("img/bgd-contact-1200.jpg");
     }
     
     .nav-invert .site-navigation {
@@ -825,15 +825,15 @@ h4 {
 
   
   .bg-banniere {
-    background-image: url(./img/la-chouette-agence-banniere-776.jpg");
+    background-image: url("img/la-chouette-agence-banniere-776.jpg");
     }
     
     .bg-presentation {
-    background-image: url("./img/image-de-presentation-776.jpg");
+    background-image: url("img/image-de-presentation-776.jpg");
     }
 
     .contact__bg {
-    background-image: url("https://bgd-contact-776.jpg");
+    background-image: url("img/bgd-contact-776.jpg");
     }
 
 @media (max-width: 1024px) {
